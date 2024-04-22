@@ -51,95 +51,54 @@
         android:paddingTop="20dp"
         android:paddingBottom="20dp">
 
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="383dp"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:hint="Modifier mes informations"
-            android:textColorHint="@color/icon_color"
-            app:boxCornerRadiusBottomEnd="8dp"
-            app:boxCornerRadiusBottomStart="8dp"
-            app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp"
-            app:boxStrokeColor="@color/icon_color"
-            app:hintTextColor="@color/black">
+            android:layout_margin="5dp"
+            android:onClick="login"
+            android:padding="20dp"
+            android:text="Modifier mes informations"
+            android:textAllCaps="false"
+            android:textColor="#636262"
+            android:textSize="18sp"
+            app:backgroundTint="@color/white"
+            android:drawableStart="@drawable/baseline_perm_contact_calendar_24"
+            android:drawablePadding="8dp"
+            app:drawableTint="@color/backgroundcolor"/>
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/Username"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/whr"
-                android:drawableStart="@drawable/baseline_perm_contact_calendar_24"
-                android:drawablePadding="8dp"
-                android:inputType="text"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                app:drawableTint="@color/backgroundcolor">
-
-            </com.google.android.material.textfield.TextInputEditText>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="383dp"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:hint="A propos"
-            android:textColorHint="@color/icon_color"
-            app:boxCornerRadiusBottomEnd="8dp"
-            app:boxCornerRadiusBottomStart="8dp"
-            app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp"
-            app:boxStrokeColor="@color/icon_color"
-            app:hintTextColor="@color/black">
+            android:layout_margin="5dp"
+            android:onClick="login"
+            android:padding="20dp"
+            android:text="A propos"
+            android:textAllCaps="false"
+            android:textColor="#636262"
+            android:textSize="18sp"
+            app:backgroundTint="@color/white"
+            android:drawableStart="@drawable/baseline_info_24"
+            android:drawablePadding="8dp"
+            app:drawableTint="@color/backgroundcolor"/>
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/Username2"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/whr"
-                android:drawableStart="@drawable/baseline_info_24"
-                android:drawablePadding="8dp"
-                android:inputType="text"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                app:drawableTint="@color/backgroundcolor">
 
-            </com.google.android.material.textfield.TextInputEditText>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            android:layout_width="match_parent"
+        <Button
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="383dp"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:hint="Déconnexion"
-            android:textColorHint="@color/icon_color"
-            app:boxCornerRadiusBottomEnd="8dp"
-            app:boxCornerRadiusBottomStart="8dp"
-            app:boxCornerRadiusTopEnd="8dp"
-            app:boxCornerRadiusTopStart="8dp"
-            app:boxStrokeColor="@color/icon_color"
-            app:hintTextColor="@color/black">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/Username3"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@drawable/whr"
-                android:drawableStart="@drawable/baseline_person_off_24"
-                android:drawablePadding="8dp"
-                android:inputType="text"
-                android:padding="15dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                app:drawableTint="@color/backgroundcolor">
-
-            </com.google.android.material.textfield.TextInputEditText>
-        </com.google.android.material.textfield.TextInputLayout>
+            android:layout_margin="5dp"
+            android:onClick="login"
+            android:padding="20dp"
+            android:text="Déconnexion"
+            android:textAllCaps="false"
+            android:textColor="#636262"
+            android:textSize="18sp"
+            app:backgroundTint="@color/white"
+            android:drawableStart="@drawable/baseline_person_off_24"
+            android:drawablePadding="8dp"
+            app:drawableTint="@color/backgroundcolor"/>
 
     </LinearLayout>
 

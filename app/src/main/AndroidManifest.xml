@@ -12,7 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Booking_bus"
         tools:targetApi="31">
-
+        <activity
+            android:name=".apropos"
+            android:exported="false" />
+        <activity
+            android:name=".modification"
+            android:exported="false" />
         <activity
             android:name=".bottom_nav"
             android:exported="true">

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_circle_left_24"
+            app:tint="@color/white"
+            android:padding="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="A propos"
+            android:textColor="@color/white"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+
+    <!--logo-->
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="40sp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="A propos de notre application"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="50dp"
+            android:gravity=""
+            android:padding="10dp"
+            android:text="Le gouvernement du bénin a entrepris un vaste programme de construction de 35
+marchés répartis sur l'ensemble du territoire à travers 02 types d'architecture : les
+halles pour les marchés urbains et les hangars améliorés pour les marchés régionaux.
+Pour la première phase, neuf (09) marchés ont été construits. Il s’agit des marchés de
+Gbégamey, Mènontin, Wologuèdè, Cadjèhoun, Tokplégbé, Aïdjèdo, Midombo, Sainte
+Trinité et PK3. Pour la deuxième phase, treize (13) nouveaux marchés seront
+construits dans douze (12) communes du Bénin.
+."
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

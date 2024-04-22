@@ -20,27 +20,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:text="Inscription"
+            android:text="Modifier mes informations"
             android:textColor="@color/white"
             android:textSize="22sp"/>
     </LinearLayout>
 
     <!--logo-->
-<TextView
-    android:id="@+id/logo"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center"
-    android:layout_centerHorizontal="true"
-    android:layout_marginBottom="5dp"
-    android:layout_marginTop="35dp"
-    android:gravity="center"
-    android:padding="5dp"
-    android:text="BusBooker"
-    android:textColor="@color/white"
-    android:textSize="40sp">
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="40sp">
 
-</TextView>
+    </TextView>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -199,42 +199,14 @@
         <Button
             android:id="@+id/btnRegister"
             android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="15dp"
-        android:padding="15dp"
-        android:text="s'inscrire"
-        android:textAllCaps="true"
-        android:textSize="18sp"
-        app:backgroundTint="@color/black" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_margin="15dp"
+            android:padding="15dp"
+            android:text="modifier"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            app:backgroundTint="@color/black" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:padding="5dp"
-                android:text="Vous avez déjà un compte?"
-                android:textColor="@color/black"
-                android:textSize="14sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:onClick="login"
-                android:padding="5dp"
-                android:text="Connectez-vous"
-                android:textColor="@color/backgroundcolor"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-
-        </LinearLayout>
 
     </LinearLayout>
 </RelativeLayout>
